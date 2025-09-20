@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/uikit.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css" />
+    <title>Nexus Innovations</title>
+    <style>
+      /* Custom expandable sections for Read More / Learn More */
+      .collapse-section {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Section Start -->
+    <nav
+      class="navbar navbar-dark navbar-expand-lg"
+      uk-sticky="top:100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up"
+    >
+      <div class="container">
+        <!-- Centered Brand -->
+        <div class="mx-auto text-center">
+          <a href="index.html" class="navbar-brand">
+            <strong style="font-weight: bold; font-size: 1.8rem"
+              >Nexus Innovations Lesotho</strong
+            >
+          </a>
+        </div>
+
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navBar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="navBar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Section End -->
+
+    <!-- Slider Section Start -->
+    <section id="slider" class="bg-dark">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item crs-img-1 active">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Innovate With Nexus</h2>
+                <p class="lead">
+                  Delivering cutting-edge solutions in technology,
+                  communication, social impact, and data analysis.
+                </p>
+                <button
+                  class="btn btn-success"
+                  data-toggle="collapse"
+                  data-target="#expand1"
+                >
+                  See More
+                </button>
+                <div
+                  id="expand1"
+                  class="collapse collapse-section text-left text-light"
+                >
+                  <p>
+                    Our mission is to empower organizations in Lesotho with
+                    innovative technology solutions and strategies to create
+                    sustainable social and business impact.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item crs-img-2">
+            <div class="container">
+              <div class="carousel-caption mb-5 text-center">
+                <h2 class="display-4 text-light">Empowering Businesses</h2>
+                <p>
+                  Our multidisciplinary team provides tailored solutions that
+                  drive meaningful change.
+                </p>
+                <button
+                  class="btn btn-warning"
+                  data-toggle="collapse"
+                  data-target="#expand2"
+                >
+                  Read More
+                </button>
+                <div id="expand2" class="collapse collapse-section text-light">
+                  <p>
+                    From software systems to strategic communication, we ensure
+                    your business leverages modern tools for efficiency, growth,
+                    and impact in the community.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item crs-img-3">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-right">
+                <h2 class="display-4 text-light">Social Impact Projects</h2>
+                <p>
+                  Strategies and initiatives that promote social good and
+                  sustainable communities.
+                </p>
+                <button
+                  class="btn btn-info"
+                  data-toggle="collapse"
+                  data-target="#expand3"
+                >
+                  Learn More
+                </button>
+                <div id="expand3" class="collapse collapse-section text-light">
+                  <p>
+                    Nexus Innovations partners with NGOs, government
+                    departments, and local communities to design programs that
+                    reduce social inequalities and enhance community resilience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item crs-img-4">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Data-Driven Insights</h2>
+                <p>
+                  Advanced analytics and visualization techniques to support
+                  informed decision-making.
+                </p>
+                <button
+                  class="btn btn-success"
+                  data-toggle="collapse"
+                  data-target="#expand4"
+                >
+                  Read More
+                </button>
+                <div
+                  id="expand4"
+                  class="collapse collapse-section text-left text-light"
+                >
+                  <p>
+                    Our team uses data analytics to provide actionable insights
+                    that help organizations make smarter decisions, optimize
+                    operations, and track the impact of their projects.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!-- Slider Section End -->
+
+    <!-- Showcase Section Start -->
+    <section id="showcase">
+      <div class="container">
+        <div class="row py-5 text-center">
+          <div class="col-lg-4 col-md-4">
+            <i class="fas fa-cogs mb-3"></i>
+            <h3>Tech Solutions</h3>
+            <p class="lead mt-2">
+              Software development, system integration, and cybersecurity
+              solutions tailored for your business.
+            </p>
+            <button
+              class="btn btn-primary"
+              data-toggle="collapse"
+              data-target="#showcase1"
+            >
+              Learn More
+            </button>
+            <div id="showcase1" class="collapse collapse-section text-left">
+              <p>
+                From web and mobile apps to cloud integration, our tech
+                solutions help businesses in Lesotho stay competitive and
+                efficient in the digital era.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <i class="fas fa-users mb-3"></i>
+            <h3>Communication & Training</h3>
+            <p class="lead mt-2">
+              Corporate training, technical documentation, and language services
+              to enhance team skills.
+            </p>
+            <button
+              class="btn btn-primary"
+              data-toggle="collapse"
+              data-target="#showcase2"
+            >
+              Learn More
+            </button>
+            <div id="showcase2" class="collapse collapse-section text-left">
+              <p>
+                We provide workshops, seminars, and training sessions to equip
+                your staff with essential skills, ensuring efficient
+                communication and high performance.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <i class="fas fa-hand-holding-heart mb-3"></i>
+            <h3>Social Impact</h3>
+            <p class="lead mt-2">
+              Community engagement and projects that create positive societal
+              impact.
+            </p>
+            <button
+              class="btn btn-primary"
+              data-toggle="collapse"
+              data-target="#showcase3"
+            >
+              Learn More
+            </button>
+            <div id="showcase3" class="collapse collapse-section text-left">
+              <p>
+                Our projects focus on empowering local communities, enhancing
+                education, health, and environmental sustainability for a better
+                Lesotho.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Showcase Section End -->
+
+    <!-- Get Started Section Start -->
+    <section id="get-started" class="text-center py-5 text-light">
+      <div class="inner-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-5 pt-4 gC">
+              <h3 class="text-light">Ready to Collaborate?</h3>
+              <p class="lead">
+                Nexus Innovations empowers organizations with technology,
+                communication, social impact, and data-driven insights.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Get Started Section End -->
+
+    <!-- Subscribe Section Start -->
+    <section id="subscribe" class="text-center py-5 bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-light">Signup For Our Newsletter</h2>
+            <p class="lead">
+              Stay updated with our latest projects and innovations.
+            </p>
+            <form class="form-inline justify-content-center">
+              <input
+                type="text"
+                placeholder="Enter name"
+                class="form-control m-2"
+              />
+              <input
+                type="email"
+                placeholder="Enter email"
+                class="form-control m-2"
+              />
+              <input
+                type="submit"
+                value="Subscribe"
+                class="btn btn-primary m-2"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe Section End -->
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="py-3 text-center text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="display-5 mb-0 text-light">Nexus Innovations</h2>
+            <div class="d-flex flex-row justify-content-center p-3">
+              <div class="px-5">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="px-5">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="px-5">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">NexusInnovations.com © 2024 All Rights Reserved</div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/uikit.min.js"></script>
+    <script type="text/javascript" src="js/uikit-icons.min.js"></script>
+  </body>
+</html>
